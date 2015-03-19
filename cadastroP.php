@@ -1,10 +1,50 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
         <title>Cadastro de Psicólogos</title>
-        </head>
-		
+		<script>
+		function valida(form){
+		if(form.nome.value==""){
+		alert("Preencha o nome corretamente:");
+		form.nome.focus();
+		returne false;
+		}
+		function valida(form){
+		if(form.sobrenome.value==""){
+		alert("Preencha o sobrenome corretamente:");
+		form.nome.focus();
+		returne false;
+		}
+		var filtro_mail = /^.+@.+\..{2,3}$/
+        if(!filtro_mail.test(form.email.value) || form.email.value=="") {
+        alert("Preencha o E-mail corretamente.");
+        form.email.focus();
+        return false;
+        }
+		if (form.senha.value=="" || form.senha.value.length < 10) {
+        alert("Preencha a senha corretamente.");
+        form.senha.focus();
+        return false;
+        }
+        if (form.conf_senha.value=="" || form.conf_senha.value.length < 10) {
+        alert("Preencha a confirmação de senha corretamente.");
+        form.conf_senha.focus();
+        return false;
+        }
+        if (form.senha.value!=form.conf_senha.value) {
+        alert("A senha e a confirmação tem de ser iguais.");
+        form.conf_senha.focus();
+        return false;
+		}
+		if (form.sexo[0].checked==false && form.sexo[1].checked==false) {
+        alert("Selecione o sexo.");
+        return false;
+        }
+
+		</script>
+		</head>
         <body>
    
 <h1> Cadastro de Psicólogos </h1> 
