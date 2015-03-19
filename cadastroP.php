@@ -4,13 +4,14 @@
 <meta charset="utf-8">
         <title>Cadastro de Psicólogos</title>
         </head>
-		<script>
 		
         <body>
    
 <h1> Cadastro de Psicólogos </h1> 
 
  <form name="cadastro" method="post" action="cadastro.php">
+ <label for="imagem"><h3>Imagem de perfil:</h3></label>
+ <input type="file" name="imagem"/>
  <h3>Nome:</h3><input type="text" name="Nome"/>
  <h3>Sobrenome:</h3><input type="text" name="Sobrenome"/>
  <h3>Senha:</h3><input type="password" name="Senha" size="10" maxlength="10"/>
@@ -23,6 +24,9 @@
  <input type="radio" name="Ano da Faculdade" value="5º Ano"/>5º Ano
  <br></br>
  <h3>CPF:</h3><input type="text" name="cpf" size="9" maxlength="9"><input type="text" name="cpf2" size="2" maxlength="2"/>
+ <br></br>
+ <label for="imagem"><h3>Histórico Universitário:</h3></label>
+ <input type="file" name="imagem"/>
  <br></br>
  <input type="submit" name="registrar" value="Registrar"/> 
 
