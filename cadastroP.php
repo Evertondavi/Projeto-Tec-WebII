@@ -4,6 +4,8 @@
 <meta charset="utf-8">
         <title>Cadastro de Psicólogos</title>
         </head>
+		<script>
+		
         <body>
    
 <h1> Cadastro de Psicólogos </h1> 
@@ -19,6 +21,8 @@
  <h3>Ano da Faculdade:</h3><input type="radio" name="Ano da Faculdade" value="1º Ano"/>1º Ano<input type="radio" name="Ano da Faculdade" value="2º Ano"/>2º Ano
  <input type="radio" name="Ano da Faculdade" value="3º Ano"/>3º Ano<input type="radio" name="Ano da Faculdade" value="4º Ano"/>4º Ano
  <input type="radio" name="Ano da Faculdade" value="5º Ano"/>5º Ano
+ <br></br>
+ <h3>CPF:</h3><input type="text" name="cpf" size="9" maxlength="9"><input type="text" name="cpf2" size="2" maxlength="2"/>
  <br></br>
  <input type="submit" name="registrar" value="Registrar"/> 
 
