@@ -1,41 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login</title>
-
-<meta charset="UTF-8">
+<meta charset="utf-8">
+<title>Cadastro de Usuáiros</title>
+<script>
+		function valida(form){
+		if(form.nome.value==""){
+		alert("Preencha o nome corretamente:");
+		form.nome.focus();
+		returne false;
+		}
+		function valida(form){
+		if(form.sobrenome.value==""){
+		alert("Preencha o sobrenome corretamente:");
+		form.nome.focus();
+		returne false;
+		}
+		var filtro_mail = /^.+@.+\..{2,3}$/
+        if(!filtro_mail.test(form.email.value) || form.email.value=="") {
+        alert("Preencha o E-mail corretamente.");
+        form.email.focus();
+        return false;
+        }
+		if (form.senha.value=="" || form.senha.value.length < 10) {
+        alert("Preencha a senha corretamente.");
+        form.senha.focus();
+        return false;
+        }
+        if (form.conf_senha.value=="" || form.conf_senha.value.length < 10) {
+        alert("Preencha a confirma??o de senha corretamente.");
+        form.conf_senha.focus();
+        return false;
+        }
+        if (form.senha.value!=form.conf_senha.value) {
+        alert("A senha e a confirma??o tem de ser iguais.");
+        form.conf_senha.focus();
+        return false;
+		}
+		if (form.sexo[0].checked==false && form.sexo[1].checked==false) {
+        alert("Selecione o sexo.");
+        return false;
+        }
+		var Soma; 
+		var Resto; 
+		Soma = 0; 
+		if (strCPF == "00000000000") return false; 
+		for (i=1; i<=9; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
+		Resto = (Soma * 10) % 11;
+		if ((Resto == 10) || (Resto == 11)) Resto = 0;
+		if (Resto != parseInt(strCPF.substring(9, 10)) ) return false;
+		Soma = 0;
+		for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);
+		Resto = (Soma * 10) % 11;
+		if ((Resto == 10) || (Resto == 11)) Resto = 0; if (Resto != parseInt(strCPF.substring(10, 11) ) ) return false;
+		return true;
+		} 
+		var strCPF = "12345678909";
+		alert(TestaCPF(strCPF));
+</script>
+</head>
 
 <body>
-<p>Login</p>
 
-<form action="Login.html" method="post">
+<h1> Cadastro de Usuáiros </h1>
 
+<form action="casastroU.php" method="post" name="cadastroU">
 
-Email:<br>
-<input type="text" name="email" size="20" placeholder="E-MAIL"></input><br>
+<h3>Nome:</h3>
+<input type="text" name="Nome" placeholder="Nome"/>
+<h3>Sobrenome:</h3>
+<input type="text" name="Sobrenome" placeholder="Sobrenome"/>
+<h3>E-mail:</h3>
+<input type="email" name="E-mail" placeholder="E-mail"/>
+<h3>Senha:</h3>
+<input type="password" name="Senha" size="10" maxlength="10" placeholder="Senha"/>
+<h3>Confirmar senha:</h3>
+<input type="password" name="Senha" size="10" maxlength="10" placeholder="confirmar senha"/>
+<h3>Sexo:</h3> 
+<input type="radio" name="sexo" value="Masculino"/>Masculino<br>
+<input type ="radio" name="sexo" value="Feminino"/>Feminino<br>
 
-Senha:<br>
-<input type="password" name="senha" size="20" /><br>
-
-
-<input type="submit" a href="Home.html" value="Log in">
 <br></br>
 
-<a href="signup.php">Sign UP</a>
-
-<script> 
-function acesso()
-{ 
-window.location = document.email.senha.value + ".html"
-if (document.email.senha.value == "")
-{alert ('Senha incorreta.');
-document.email.senha.focus();
-window.location = "Login.html"
-return false;}
-} </script>
+<input type="submit" value="Registrar" name="registrar">
+</form>
 
 </body>
 </html>
-
-
 
