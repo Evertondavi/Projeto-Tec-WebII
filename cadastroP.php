@@ -68,12 +68,20 @@
  <form name="cadastro" method="post" action="cadastro.php">
  <label for="imagem"><h3>Imagem de perfil:</h3></label>
  <input type="file" name="imagem"/>
- <h3>Nome:</h3><input type="text" name="Nome"/>
- <h3>Sobrenome:</h3><input type="text" name="Sobrenome"/>
- <h3>Senha:</h3><input type="password" name="Senha" size="10" maxlength="10"/>
- <h3>Confirmar senha:</h3><input type="password" name="Senha" size="10" maxlength="10"/>
- <h3>E-mail:</h3><input type="email" name="E-mail"/>
- <h3>Sexo:</h3> <input type="radio" name="sexo" value="Masculino"/>Masculino<input type ="radio" name="sexo" value="Feminino"/>Feminino
+ <h3>Nome:</h3>
+ <input type="text" name="Nome" placeholder="Nome"/>
+ <h3>Sobrenome:</h3>
+ <input type="text" name="Sobrenome" placeholder="Sobrenome"/>
+ <h3>E-mail:</h3>
+ <input type="email" name="E-mail" placeholder="E-mail"/>
+ <h3>Senha:</h3>
+ <input type="password" name="Senha" size="10" maxlength="10" placeholder="Senha"/>
+ <h3>Confirmar senha:</h3>
+ <input type="password" name="Senha" size="10" maxlength="10" placeholder="Confirmar senha"/>
+
+ <h3>Sexo:</h3> 
+ <input type="radio" name="sexo" value="Masculino"/>Masculino<br>
+ <input type ="radio" name="sexo" value="Feminino"/>Feminino<br>
  <br></br>
  <h3>Ano da Faculdade:</h3><input type="radio" name="Ano da Faculdade" value="1º Ano"/>1º Ano<input type="radio" name="Ano da Faculdade" value="2º Ano"/>2º Ano
  <input type="radio" name="Ano da Faculdade" value="3º Ano"/>3º Ano<input type="radio" name="Ano da Faculdade" value="4º Ano"/>4º Ano
