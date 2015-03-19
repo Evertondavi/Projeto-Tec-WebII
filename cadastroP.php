@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,6 +41,23 @@
         alert("Selecione o sexo.");
         return false;
         }
+		var Soma; 
+		var Resto; 
+		Soma = 0; 
+		if (strCPF == "00000000000") return false; 
+		for (i=1; i<=9; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
+		Resto = (Soma * 10) % 11;
+		if ((Resto == 10) || (Resto == 11)) Resto = 0;
+		if (Resto != parseInt(strCPF.substring(9, 10)) ) return false;
+		Soma = 0;
+		for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);
+		Resto = (Soma * 10) % 11;
+		if ((Resto == 10) || (Resto == 11)) Resto = 0; if (Resto != parseInt(strCPF.substring(10, 11) ) ) return false;
+		return true;
+		} 
+		var strCPF = "12345678909";
+		alert(TestaCPF(strCPF));
+
 
 		</script>
 		</head>
@@ -63,7 +79,7 @@
  <input type="radio" name="Ano da Faculdade" value="3º Ano"/>3º Ano<input type="radio" name="Ano da Faculdade" value="4º Ano"/>4º Ano
  <input type="radio" name="Ano da Faculdade" value="5º Ano"/>5º Ano
  <br></br>
- <h3>CPF:</h3><input type="text" name="cpf" size="9" maxlength="9"><input type="text" name="cpf2" size="2" maxlength="2"/>
+ <h3>CPF:</h3><input type="text" name="cpf" size="11" maxlength="11"><input type="text" name="cpf2" size="2" maxlength="2"/>
  <br></br>
  <label for="imagem"><h3>Histórico Universitário:</h3></label>
  <input type="file" name="imagem"/>
@@ -72,3 +88,9 @@
 
  </body>
  </html>
+
+ 
+ 
+ 
+
+       
