@@ -57,8 +57,6 @@
 		} 
 		var strCPF = "12345678909";
 		alert(TestaCPF(strCPF));
-
-
 		</script>
 		</head>
         <body>
@@ -87,7 +85,7 @@
  <input type="radio" name="Ano da Faculdade" value="3º Ano"/>3º Ano<input type="radio" name="Ano da Faculdade" value="4º Ano"/>4º Ano
  <input type="radio" name="Ano da Faculdade" value="5º Ano"/>5º Ano
  <br></br>
- <h3>CPF:</h3><input type="text" name="cpf" size="11" maxlength="11"><input type="text" name="cpf2" size="2" maxlength="2"/>
+ <h3>CPF:</h3><input type="text" name="cpf" size="11" maxlength="11" placeholder="CPF"><input type="text" name="cpf2" size="2" maxlength="2" />
  <br></br>
  <label for="imagem"><h3>Histórico Universitário:</h3></label>
  <input type="file" name="imagem"/>
@@ -96,7 +94,6 @@
 
  </body>
  </html>
-
  
  
  
