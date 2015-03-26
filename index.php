@@ -25,7 +25,7 @@
         <input type="text" name="nome" />
         </p>
         <p>Senha
-        <input type="password" name="senha" />
+        <input type="password"  pattern="[0-9]*" name="senha" />
         </p>
         <input type="submit" value="Cadastrar" id="botao" />
         
