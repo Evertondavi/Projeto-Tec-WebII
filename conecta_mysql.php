@@ -23,7 +23,10 @@ mysqli_close($conn);
   
   $myfile = fopen("banco.sql", "r") or die("Unable to open file!");
   $sql = fread($myfile,filesize("banco.sql"));
-  // $q = mysqli_multi_query($conexao,$sql);
+  mysql_connect ("localhost","root","administrador");
+  mysql_select_db('myDB') or die('Could not select database.');
+  //"[ string $server [", string $username [, string $password [, bool $new_link [, int $client_flags ]]]]] )
+  mysql_query($sql);
 	
 	
 }  
