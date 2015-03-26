@@ -8,7 +8,7 @@
     
     <body>
         
-	<?php include "cabecalho.php"; ?>
+	<?php include "menu.php"; ?>
 	<?php include "conteudo.php"; ?>
 	<?php include "rodape.php"; ?>
         
