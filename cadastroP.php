@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
         <title>Cadastro de Psicólogos</title>
-		<script>
+		<script type="text/javascript">
 		function valida(form){
 		if(form.nome.value==""){
 		alert("Preencha o nome corretamente:");
