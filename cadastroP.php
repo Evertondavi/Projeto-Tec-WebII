@@ -63,7 +63,7 @@
    
 <h1> Cadastro de Psicólogos </h1> 
 
- <form name="cadastro" method="post" action="cadastro.php">
+ <form name="cadastro" method="post" action="cadastro.php" onsubmit="return valida();">
  <label for="imagem"><h3>Imagem de perfil:</h3></label>
  <input type="file" name="imagem"/>
  <h3>Nome:</h3>
