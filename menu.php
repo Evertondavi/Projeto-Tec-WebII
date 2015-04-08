@@ -30,9 +30,9 @@
 						</div><!-- /gn-scroller -->
 					</nav>
 				</li>
-				<li><a href="#">Codrops</a></li>
-				<li><a class="codrops-icon codrops-icon-prev" href="#"><span>Previous Demo</span></a></li>
-				<li><a class="codrops-icon codrops-icon-drop" href="#"><span>Back to the Codrops Article</span></a></li>
+				<li><a href="#">Notícias</a></li>
+				<li><a class="codrops-icon codrops-icon-prev" href="#"><span>FAQ</span></a></li>
+				<li><a class="codrops-icon codrops-icon-drop" href="#"><span>ProjetoX</span></a></li>
 			</ul>
 		</div><!-- /container -->
                 
