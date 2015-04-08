@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,47 +11,9 @@
         <div id="article">      
             <article id="firstArticle">
                 <h2>Testing</h2>
-                <p>When working on Lato, Łukasz tried to carefully balance some potentially conflicting priorities. He wanted to create a typeface that would seem quite “transparent” when used in body text but would display some original.</p>
+                <br><br>
+                <p align="center">When working on Lato, Łukasz tried to carefully balance some potentially conflicting priorities.<br> He wanted to create a typeface that would seem quite “transparent” when used in body text but would display some original.</p>
             </article>
 
-            <br>
-
-            <article>
-
-            </article>
-
-            <br>
-
-            <article>
-
-            </article>
-
-            <br>
-
-            <article>
-
-            </article>
-
-            <br>
-
-            <article>
-
-            </article>
-
-            <br>
-
-            <article>
-
-            </article>
-        </div> 
-        <br>
-
-    </div>
-
-    <br> <br> <br> <br> <br>
-
-
-
-
-</body>
+    </body>
 </html>
