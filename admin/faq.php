@@ -1,5 +1,5 @@
 <?php
-  include "conecta_mysql.php";
+  //include "conecta_mysql.php";
   
 ?>
 <!DOCTYPE html>
