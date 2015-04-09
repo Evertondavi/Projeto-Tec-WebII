@@ -3,22 +3,25 @@ include "conecta_mysql.php";
 
 
 $nome = $_POST['nome'];
+$sobrenome = $_POST['sobrenome'];
+$email = $_POST['email'];
 $senha = $_POST['senha'];
-$sql = "INSERT INTO log (nome , senha) VALUES ('".$nome."', ".$senha.")";
-// echo $sql;
 
-$resultado = mysqli_query($conexao, $sql) or die
-        ("Não foi possivel executar a SQL:".  mysqli_error($conexao));
+$sql = mysql_query("INSERT INTO log(nome , sobrenome, email, senha) 
+      VALUES ('$nome', '$sobrenome' , '$email', '$senha')") or die
+        ("Não foi possivel executar a SQL:".  mysql_error($conexao)); 
 
-if($resultado === TRUE){
-     include "principal.php";
+
+if($sql === TRUE){
+      header('Location: home.php');  
      
 }else{
         echo "</br>Erro na inserção";
     }
     
-    mysqli_close($conexao);
+    mysql_close($conexao);
         
+       
         
         
         
