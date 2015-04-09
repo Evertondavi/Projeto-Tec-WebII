@@ -64,25 +64,19 @@
 
 <h1> Cadastro de Usuáiros </h1>
 
-<form action="casastroU.php" method="post" name="cadastroU">
+<form action="create.php" method="Post" name="cadastroU">
 
 <h3>Nome:</h3>
-<input type="text" name="Nome" placeholder="Nome"/>
+<input type="text" name="nome" placeholder="Nome"/>
 <h3>Sobrenome:</h3>
-<input type="text" name="Sobrenome" placeholder="Sobrenome"/>
+<input type="text" name="sobrenome" placeholder="Sobrenome"/>
 <h3>E-mail:</h3>
-<input type="email" name="E-mail" placeholder="E-mail"/>
+<input type="email" name="email" placeholder="E-mail"/>
 <h3>Senha:</h3>
-<input type="password" name="Senha" size="10" maxlength="10" placeholder="Senha"/>
-<h3>Confirmar senha:</h3>
-<input type="password" name="Senha" size="10" maxlength="10" placeholder="confirmar senha"/>
-<h3>Sexo:</h3> 
-<input type="radio" name="sexo" value="Masculino"/>Masculino<br>
-<input type ="radio" name="sexo" value="Feminino"/>Feminino<br>
-
+<input type="password" name="senha" size="10" maxlength="10" placeholder="Senha"/>
 <br></br>
 
-<input type="submit" value="Registrar" name="registrar">
+<input type="submit" value="Cadastrar" name="cadastrar">
 </form>
 
 </body>
