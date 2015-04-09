@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title></title>
     <style>
- .all{
+ .all{ 
     width: 800px;
     margin: 0 auto;
     border:1px solid #000;
