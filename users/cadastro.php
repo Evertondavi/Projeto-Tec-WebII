@@ -35,18 +35,18 @@
    return;
   }
   if(confirmar == ''){
-   alert("Preencha confirmar senha.");
+   alert("Use a senha igual a anterior.");
    document.frm.confirmarSenha.focus();
    return;
   }
   if(useremail == ''){
-   alert("Preencha email corretamente.");
+   alert("Preencha o email corretamente.");
    document.frm.email.focus();
    return;
   }
   // 비밀번호 일치 여부
   if(senha != confirmar){
-   alert("A senha nao é igual.");
+   alert("A senha é diferente.");
    document.frm.senha.value = '';
    document.frm.confirmarSenha.value = '';
    document.frm.senha.focus();
@@ -94,10 +94,8 @@
     <th>Confirmar senha:</th>
     <td><input type="password" name="confirmarSenha" id="" placeholder="Confirmar senha"></td>
    </tr>
-   <th>Sexo:</th>
                 <td>
-                    <input type="radio" name="sexo" value="masculino" checked="checked">Masculino
-                    <input type="radio" name="sexo" value="feminino">Feminino
+
                 </td>
    </tr>
     <td colspan="2"><input type="button" value="Registrar" onclick="checkValue()"></td>
@@ -106,4 +104,3 @@
  </form>
 </body>
 </html>
-
