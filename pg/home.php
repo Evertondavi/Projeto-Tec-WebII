@@ -4,6 +4,7 @@
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="..\css\style.css" type="text/css" />
 	<link rel="stylesheet" href="..\css\pgStyle.css" type="text/css" />
+        <link rel="icon" href="img\logo.ico" type="image/x-icon" />
     </head>
     
 <body>
@@ -41,7 +42,7 @@
 
 ?>
  <footer class="rodape">
-	<p>Copyright - Todos os Direitos Reservados</p>
+	<p>© Copyright - Todos os Direitos Reservados</p>
  </footer>
 </body>
 </html>
