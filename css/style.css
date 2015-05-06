@@ -95,7 +95,7 @@ header .menu ul li a{
 
 }	
 .formUser p{font-family: Arial; color: #fff;}	
-.formUser table tr td input{float:left;margin-left:5px;border-color:#000;border-radius: 2px;padding:7px;font-family:Arial;font-size:15px;margin-bottom:3px;} 
+.formUser table tr td input{float:left;margin-left:5px;border-color:#000;border-radius: 5px;padding:7px;font-family:Arial;font-size:15px;margin-bottom:3px;} 
 .formUser table tr {float:left}   
 .formUser table tr td{float:left;}   
 .formUser table tr td #email{width:409px;}
@@ -114,5 +114,5 @@ header .menu ul li a{
 .one .second{border:1px solid #2D3688;border-radius:8px;margin:50px 0px 0px 0px;width:1024px;}
 .one .second p{padding:0px 3px 0px 10px;color:#2D3688;font-family:Arial;}
 footer{background:#2D3688; width:1024px;height:80px;margin-top:20px;clear:both;}
-
+footer p{text-align: center;padding-top: 30px;font-family: Arial;font-size: 15px;color:#fff}
 
