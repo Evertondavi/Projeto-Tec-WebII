@@ -2,10 +2,10 @@
 include "conecta_mysql.php";
 
 
-$nome = $_POST['nome'];
-$sobrenome = $_POST['sobrenome'];
-$email = $_POST['email'];
-$senha = $_POST['senha'];
+$nome = $_GET['nome'];
+$sobrenome = $_GET['sobrenome'];
+$email = $_GET['email'];
+$senha = $_GET['senha'];
 
 $sql = mysql_query("INSERT INTO log(nome , sobrenome, email, senha) 
       VALUES ('$nome', '$sobrenome' , '$email', '$senha')") or die
@@ -13,7 +13,7 @@ $sql = mysql_query("INSERT INTO log(nome , sobrenome, email, senha)
 
 
 if($sql === TRUE){
-      header('Location: home.php');  
+      header('Location: cadastro.php');  
      
 }else{
         echo "</br>Erro na inserção";
