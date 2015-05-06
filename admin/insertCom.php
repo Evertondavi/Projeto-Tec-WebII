@@ -15,7 +15,7 @@
 	  $status = 'nao';
 	  $inserir = mysql_query("INSERT INTO comentario (nome, email, comentario, status)VALUES('$nome','$email', '$comentario' ,'$status') ");
 	  echo '<script>alert("Mensagem enviada com sucesso!!!");</script>';
-	  header('Location: comentarios.php');
+	  header('Location: ../comentarios.php');
 	}
 	}
 	
