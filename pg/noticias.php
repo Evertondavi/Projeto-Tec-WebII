@@ -9,7 +9,7 @@
 			Um copo de vinho por dia tem sido sugerido como tendo efeitos benéficos para a saúde do seu corpo. Um novo estudo sugere que também pode ajudar com o seu humor.
 
         </p>
-		<a>+ Saiba mais</a>
+        <a href="#">+ Saiba mais</a>
 </article>
 
 
@@ -19,7 +19,7 @@
 		<p class="noticiaP2">
 			Além do pedágio óbvio na saúde física e emocional, violência em namoro na adolescência tende a levar a menor educação e rendimentos mais baixos mais tarde na vida, de acordo com um pesquisador da Universidade Estadual de Michigan. 
         </p>
-		<a>+ Saiba mais</a>
+        <a href="#">+ Saiba mais</a>
 </article>
 
 
@@ -30,7 +30,7 @@
 		Entender a criatividade tem sido uma meta de filósofos e cientistas de vários milênios.
 
         </p>
-		<a>+ Saiba mais</a>
+        <a href="#">+ Saiba mais</a>
 		
 </article>
 	
