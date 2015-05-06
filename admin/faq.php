@@ -102,35 +102,28 @@ h2{text-align: center;}
 <header class="all">
       <h2>Seja bem vindo!!!</h2>
       <hr>
-     <nav id="nav">
+      <nav id="nav">
        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Inserir Noticia</a></li>
-          <li><a href="">Comentarios</a></li>
-
-       </ul>
+          <li><a href="faq.php">Home</a></li>
+          <li><a href="faq.php?admin=insert">Inserir Noticia</a></li>
+          <li><a href="faq.php?admin=noticias">Comentarios</a></li>
+        </ul>
     </nav>
 </header>
 
 <section class="all" id="navbar">
+  <?php
+    if(!$_GET){
+     include ("insert.php");
 
-     <nav>
-       <ul>
-          <li><a href="#">Alterar</a></li>
-          <li><a href="#">Excluir</a></li>
-          <li><a href="#">Permitir</a></li>
+    }else{
+      include ($_GET['admin'] . '.php');
+   }
 
-       </ul>
-    </nav>
+?>
  
 </section>
-
-
-
-
-
-
-
-
+  
+ 
 </body>
 </html>
