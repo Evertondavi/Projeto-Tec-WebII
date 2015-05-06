@@ -1,15 +1,15 @@
- 
+
  <?php include "conecta_mysql.php";?>
 	
   <form class="forum" action="admin/insertCom.php"  enctype="multipart/form-data" method="post" >
   <figure class="imgPsico"> 
-		<img src="..\img\img01.jpg" alt="imagem" width="200px" height="150px" />
+		<img src="..\img\img01.jpg" alt="imagem" width="200" height="150" />
     </figure>
             <input type="text" name="nome" maxlength="100" placeholder ="Nome" class="inpForum" />
 			<input type="text" name="email" maxlength="100" placeholder ="E-mail" class="inpForum" />
-			<textarea type="text" name="coment" cols="30" rows="10" placeholder ="Deixe sua pergunta" class="inpForum"></textarea><br />
+			<textarea name="coment" cols="30" rows="10" placeholder ="Deixe sua pergunta" class="inpForum"></textarea><br />
 			<input type="hidden" name="acao" value="enviar" />
-			<input type="submit"value="Enviar" class="subForum" />
+			<input type="submit" value="Enviar" class="subForum" />
     </form>  
     
      
