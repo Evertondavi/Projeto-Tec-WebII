@@ -10,7 +10,7 @@
 		 //$person = mysql_fetch_array($result);
 		  $q = "UPDATE comentario SET  status = 'sim' WHERE id= $_GET[id] ";
 		  mysql_query($q)or die(mysql_error());
-		  header('Location: noticias.php');
+		  header('Location: faq.php?admin=noticias');
 		  }      
 	
 	
