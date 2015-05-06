@@ -63,14 +63,14 @@
   // 올바른 양식이 입력된 것을 확인했다.
   // 현재 양식을 다른 페이지로 제출(값 전달)
   
-  document.frm.action="test.html";
+  document.frm.action="create.php";
   document.frm.method="get";
   document.frm.submit();
  }
 </script>
 </head>
 <body>
- <form name="frm" method="get" action="test.html">
+ <form action="create.php" name="frm" method="get" >
   <table>
    <tr>
     <th>Nome:</th>
