@@ -47,6 +47,15 @@ var senha = document.frm.senha.value;
    return;
   }
   
+  // 이메일 형식
+  if(useremail.indexOf('@') < 1)
+  {
+   alert("E-mail inválido.");
+   document.frm.email.value = '';
+   document.frm.email.focus();
+   return;
+  }
+  
   if(senha == ''){
    alert("Preencha a senha corretamente.");
    document.frm.senha.focus();
