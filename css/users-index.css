@@ -114,3 +114,12 @@ header .menu ul li a{
 footer{background:#2D3688; width:1024px;height:80px;margin-top:20px;clear:both;}
 footer p{text-align: center;padding-top: 30px;font-family: Arial;font-size: 15px;color:#fff}
 
+.perfil{
+		background: #2D3688;border-radius:8px;width:300px;	padding: 10px;float:right;margin-bottom:20px;
+}
+.curiosidades .inpcuriosidades{border:1px solid #000;width:250px;padding:10px;font-size:16px;margin: 5px 0px 4px 10px;}
+.curiosidades .subcuriosidades{
+		width:150px;padding:5px;font-size:13px;margin: 5px 0px 4px 85px;
+	}
+	
+
