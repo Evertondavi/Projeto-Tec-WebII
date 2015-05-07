@@ -73,9 +73,9 @@ aqueles que dizem respeito à própria natureza .
 </article>
 	
 	
-	<!-------DEPOIMENTOS---------->
+
 	
- <article class="Depoimentos">
+ <article class="Curiosidades">
 		<p class="depoimentoP1">“Ético, sensível, carismático, Felipe é uma dessas raras pessoas em quem se pode contar e confiar sempre. Profissional atento e dedicado, vem desenvolvendo um trabalho super abrangente na internet, colocando a disposição de todos centenas de textos voltados para o aperfeiçoamento pessoal e autoconhecimento, além de manter-se disponível para orientações online. Seu caráter é indiscutível e seu talento interpessoal contagiante. Uma pessoa a quem só posso elogiar”.      
 			Kattlyn Pereira, Paciente
 
@@ -83,14 +83,14 @@ aqueles que dizem respeito à própria natureza .
 		
 	
 </article>
-<article class="Depoimentos">
+<article class="Curiosidades">
 		<p class="depoimentoP1">“Um ser humano notável, que se dedica a mostrar que todos nós também somos seres notáveis. Um excelente profissional cujo o objetivo é simplesmente ajudar. Tem um trabalho fantástico na sua página compartilhando conhecimentos, dicas e dividindo também suas vivências como profissional e pessoal. É uma pessoa que vale apena conhecer, ser conhecido por ele e assim se conhecer melhor!”
 			Markinhos Souza, Paciente
 		</p>
 		
 		
 </article>
-<article class="Depoimentos">
+<article class="Curiosidades">
 		<p class="depoimentoP1">“Uma pessoa doce, um grande ouvinte. Felipe de Souza fala manso e sempre tem uma palavra sensata para nos ajudar. Como sou uma pessoa muito ansiosa, o fato de ele ser tranquilo, me transmitia muita paz. Sucesso em seu site. Tenho certeza que os internautas terão nesse espaço boas oportunidades de crescimento e conhecimento pessoal”.
 			Magda Velloso, Paciente
 
