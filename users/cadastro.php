@@ -1,8 +1,10 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
  <meta charset="UTF-8">
- <title>login</title>
+ <title>Cadastro</title>
  <script type="text/javascript">
   function checkValue() {
 
@@ -20,7 +22,7 @@
 
   //유효성검사
   if(username == '') {
-   alert("Preencha o nome corretamente.");
+   alert("Preenha o nome corretamente.");
    document.frm.nome.focus();
    return; // 반환후 중지
   }
@@ -35,18 +37,18 @@
    return;
   }
   if(confirmar == ''){
-   alert("Use a senha igual a anterior.");
+   alert("Confirme senha.");
    document.frm.confirmarSenha.focus();
    return;
   }
   if(useremail == ''){
-   alert("Preencha o email corretamente.");
+   alert("Preencha email corretamente.");
    document.frm.email.focus();
    return;
   }
   // 비밀번호 일치 여부
   if(senha != confirmar){
-   alert("A senha é diferente.");
+   alert("A senha nao é igual.");
    document.frm.senha.value = '';
    document.frm.confirmarSenha.value = '';
    document.frm.senha.focus();
@@ -55,7 +57,7 @@
   // 이메일 형식
   if(useremail.indexOf('@') < 1)
   {
-   alert("Preencha.");
+   alert("Preenche.");
    document.frm.email.value = '';
    document.frm.email.focus();
    return;
@@ -63,44 +65,43 @@
   // 올바른 양식이 입력된 것을 확인했다.
   // 현재 양식을 다른 페이지로 제출(값 전달)
   
-  document.frm.action="create.php";
+  document.frm.action="cadastro.html";
   document.frm.method="get";
   document.frm.submit();
  }
 </script>
 </head>
 <body>
- <form action="create.php" name="frm" method="get" >
+ <form name="frm" method="get" action="cadastro.html">
   <table>
    <tr>
-    <th>Nome:</th>
-    <td><input type="text" name="nome" id="" placeholder ="Nome"></td>
+    <th>Nome</th>
+    <td><input type="text" name="nome" id="" placeholder="Nome"></td>
    </tr>
    <tr>
-    <th>Sobrenome:</th>
+    <th>Sobrenome</th>
     <td><input type="text" name="sobrenome" id="" placeholder="Sobrenome"></td>
    </tr>
    <tr>
    <tr>
-    <th>E-mail:</th>
+    <th>E-mail</th>
     <td><input type="text" name="email" id="" placeholder="E-mail"></td>
    </tr>
    <tr>
    <tr>
-    <th>Senha:</th>
+    <th>Senha</th>
     <td><input type="password" name="senha" id="" placeholder="Senha"></td>
    </tr>
    <tr>
-    <th>Confirmar senha:</th>
-    <td><input type="password" name="confirmarSenha" id="" placeholder="Confirmar senha"></td>
+    <th>Confirmar senha</th>
+    <td><input type="password" name="confirmarSenha" id="" placeholder="confirmar Senha"></td>
    </tr>
-                <td>
-
-                </td>
-   </tr>
+   
     <td colspan="2"><input type="button" value="Registrar" onclick="checkValue()"></td>
    </tr>
   </table>
  </form>
 </body>
 </html>
+
+
