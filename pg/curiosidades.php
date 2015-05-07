@@ -12,10 +12,46 @@
 
 
 <article class="noticias">
-		<p class="noticiaP1">Violência no Namoro Durante a Adolescência Pode Afetar Educação e Situação Econômica no Futuro
+		<p class="noticiaP1">Aceitar que tal atividade é possível
+significa aceitar implicitamente uma série de
+crenças mais básicas, de pressupostos
+filosóficos, sem os quais tal tipo de atividade e
+tal tipo de produto (leis naturais explicativas,
+descritivas e preditivas) não seriam possíveis.
+Eles são no mínimo cinco. O primeiro é a
+crença de que o objeto de investigação e
+algumas de suas características existem
+independentemente da mente do observador, a
+isto se denominará realismo ontológico. O
+segundo é a crença na estabilidade, pelo menos
+em alguns de seus aspectos, do objeto que se
+estuda, a isto se denominará princípio da
+regularidade do objeto; o terceiro é a crença de
+que através do método adequado, podemos vir conhecer.
 		</p>
 		<p class="noticiaP2">
-			Além do pedágio óbvio na saúde física e emocional, violência em namoro na adolescência tende a levar a menor educação e rendimentos mais baixos mais tarde na vida, de acordo com um pesquisador da Universidade Estadual de Michigan. 
+		Assim, a pergunta aqui é: se, diante de tal
+definição e de tais pressupostos, podemos
+conceber uma psicologia plenamente
+compatível com a ciência moderna. Ou seja, a
+psicologia é capaz de produzir leis como as
+definidas acima, e possui um objeto de
+investigação que se enquadra nestas crenças
+ontológicas? É claro que estas próprias crenças
+se encontram sobre permanente ataque na
+história da ciência, revezando-se como alvo
+prioritário da vez. Atualmente, o realismo
+ontológico está sob ataque do construtivismo
+radical (Glasersfeld, 1984) e do construtivismo
+social ontológico (Latour & Woolgar, 1986), o
+princípio da regularidade do objeto sob ataque
+dos intérpretes leigos da física quântica, e o
+representacionismo sob ataque cerrado há mais
+de 50 anos das teorias anti-representacionistas
+derivadas de setores da filosofia da linguagem
+(Wittgenstein, 1953/1975), do pragmatismo
+(Rorty, 1989) e do desconstrucionismo
+(Derrida, 1973). 
         </p>
 		<a>+ Saiba mais</a>
 </article>
