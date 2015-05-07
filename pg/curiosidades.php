@@ -61,8 +61,12 @@ derivadas de setores da filosofia da linguagem
 		<p class="noticiaP1">O Que Aciona a Criatividade?
 		</p>
 		<p class="noticiaP2">
-		Entender a criatividade tem sido uma meta de filósofos e cientistas de vários milênios.
-
+		Os mais graves problemas a serem
+superados por qualquer programa de pesquisa
+que se proponha a levar à frente o projeto de
+constituição de uma psicologia como ciência
+moderna são os de natureza ontológica, ou seja,
+aqueles que dizem respeito à própria natureza .
         </p>
 		<a>+ Saiba mais</a>
 		
