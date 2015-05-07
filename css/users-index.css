@@ -129,3 +129,12 @@ footer p{text-align: center;padding-top: 30px;font-family: Arial;font-size: 15px
 		border:1px solid #2D3688;width:400px;padding:20px;font-size:15px;text-align:justify;color:#2D3688;
 		font-family:Arial;border-radius:10px;float:left;margin-left:45px;margin-bottom:20px;
 }
+.sobre .sobreP1{text-align:center;}
+.sobre1{
+		border:1px solid #2D3688;width:900px;padding:20px;font-size:15px;text-align:justify;color:#2D3688;
+		font-family:Arial;border-radius:10px;float:left;margin-left:45px;margin-bottom:20px;
+}
+.imgPsico{
+		border:1px solid #000;float:right;
+}
+.imgPsico img{border:1px solid #000;float:right;}
