@@ -24,3 +24,8 @@
             </nav>
 	 
 	 </header>    
+	  <footer class="rodape">
+            <p>© Copyright - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>
