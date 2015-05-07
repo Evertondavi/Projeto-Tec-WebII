@@ -11,3 +11,59 @@ body{
 		margin-bottom:30px;
 		
 }
+.imgTopo{
+		//border: 1px solid #000;
+		background: #fff;
+		margin-left: 30px;
+		padding: 31px;
+}
+
+header .menu{
+		 border-top: 1px solid #fff;
+		 border-bottom: 1px solid #fff;
+		//margin-left: 30px;
+		//padding: 11px;
+		height: 40px;
+		width: 780px;
+		float:right;
+		margin-right: 10px;
+		margin-top:-53px;
+		
+}
+
+header .menu ul{
+        
+		//background: #fff;
+		//margin-left: 30px;
+		//padding: 11px;
+		height: 40px;
+		width: 580px;
+		list-style: none;
+		float:left;
+		margin-top:-2px;
+		text-align:center;
+		
+}
+
+header .menu ul li{
+        //border: 1px solid #000;
+		//background: #fff;
+		//margin-left: 30px;
+		//padding: 11px;
+		display:inline;
+
+}
+header .menu ul li a{
+        // border: 1px solid #069;
+		//background: #fff;
+		//margin-left: 30px;
+		//padding: 11px;
+		height: 40px;
+		width:100px;
+		float:left;
+		text-decoration:none;
+		line-height:44px;
+		color:#fff;
+		font-family: Arial;
+
+}
