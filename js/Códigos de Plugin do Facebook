@@ -60,4 +60,10 @@ Send Button
 
 
 
+// Incluir código abaixo na posição desejada para o plugin
+
+
+<div class="fb-send" data-href="https://developers.facebook.com/docs/plugins/"></div>
+
+
 
