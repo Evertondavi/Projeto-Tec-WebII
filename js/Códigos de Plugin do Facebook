@@ -37,5 +37,11 @@ Share Button
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
+// Incluir código abaixo na posição desejada do plugin
+
+
+<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
+
+
 
 
