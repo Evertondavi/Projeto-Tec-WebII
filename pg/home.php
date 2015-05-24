@@ -53,6 +53,9 @@
         <footer class="rodape">
             <p>© Copyright - Todos os Direitos Reservados</p>
             <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
+<div class="fb-send" data-href="https://developers.facebook.com/docs/plugins/"></div>
+<div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-numposts="5" data-colorscheme="light"></div>
         </footer>
     </body>
 </html>
