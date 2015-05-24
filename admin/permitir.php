@@ -11,7 +11,9 @@
 		  $q = "UPDATE comentario SET  status = 'sim' WHERE id= $_GET[id] ";
 		  mysql_query($q)or die(mysql_error());
 		  header('Location: faq.php?admin=noticias');
-		  }      
+		  }   
+		  
+		  mysqli_close($conexao);
 	
 	
 		
