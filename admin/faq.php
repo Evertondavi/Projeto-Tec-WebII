@@ -6,96 +6,11 @@
 
 <html>
 <head>
+<link rel="stylesheet" href="..\css\cssAd.css" type="text/css" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title></title>
-    <style>
- .all{ 
-    width: 800px;
-    margin: 0 auto;
-    border:1px solid #000;
-
-}
-
-h2{text-align: center;}
-
-#nav{
-     //border: 1px solid #f00;
-
-}
-#nav ul{
-        border: 1px solid #333;
-        list-style:none;
-        background: #f4f4f4;
-        height:40px;
-}
-
-#nav ul li{
-            float:left;
-            
-}
-
-#nav ul li a{
-        text-decoration:none;
-        text-align: center;
-        height:40px;
-        width:190px;
-        margin-left:20px;
-        font-size: 20px;
-        font-family: Arial;
-        display:block;
-        line-height: 40px;
-        color: #333;
-}
-
-#nav ul li a:hover{
-        background: #666;
-        color:#f4f4f4;
-}
-
-#navbar nav{
-    //border:1px solid #f00;
-    width: 150px;
-    height: 300px;
-    
-}
-#navbar ul{
-         border:1px solid #333;
-        list-style:none;
-        background: #f4f4f4;
-        width:100px;
-        margin: 0 auto;
-        height:250px;
-        
-        
-}
-#navbar ul li{
-       // border:1px solid #f00;
-        margin-left: -40px;
-        width: 140px;
-}
-#navbar ul li a{
-        text-decoration: none;
-        display:block;
-        height: 40px;
-        padding: 10px;
-        text-align:center;
-        line-height:40px;
-        color:#333;
-        font-size: 18px;
-        font-family: Arial;
-
-        
-
-        
-}
-#navbar ul li a:hover{
-        background: #666;
-        color:#f4f4f4;
-}
-
-  </style>
-
+<title>Administrador</title>
+ 
 
 </head>
 <body class="all">
@@ -107,6 +22,8 @@ h2{text-align: center;}
           <li><a href="faq.php">Home</a></li>
           <li><a href="faq.php?admin=insert">Inserir Noticia</a></li>
           <li><a href="faq.php?admin=noticias">Comentarios</a></li>
+         <li><a href="faq.php?admin=conteudo">Conteudo</a></li>
+
         </ul>
     </nav>
 </header>
