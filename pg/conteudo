@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link  href="estilo.css" rel="stylesheet" type="text/css" />
+        
+        
+    </head>
+    <body>
+        
+     <?php
+	 include "conecta_mysql.php";
+		$seleciona = mysqli_query($conexao,"SELECT * FROM image ORDER BY id ASC") or die (mysql_error());;
+		$conta = mysqli_num_rows($seleciona);
+		
+		if($conta <= 0){
+			echo "Não ha nenhum dado no banco";
+		}else{
+		   while($ln = mysqli_fetch_array($seleciona)){
+		   $titulo   = $ln['titulo'];
+		   $imagem   = $ln['foto'];
+		   $conteudo = $ln['texto'];
+		   
+		
+	 ?>
+        <article id="post">
+            <h1 ><?php echo $titulo;?></h1>
+            <img src="img/<?php echo $imagem; ?>" />
+            <p><?php echo $conteudo;?></p>
+           
+        </article>
+
+<?php }}   
+  // mysqli_close($conexao);
+?>
+
+</body>
+</html>
